@@ -1,0 +1,15 @@
+{
+  "name": "typewars",
+  "module": "index.ts",
+  "scripts": {
+    "start": "bun run exercice01.ts",
+    "dev": "bun dev"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
